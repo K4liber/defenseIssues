@@ -1,1 +1,22 @@
-Lalala
+\underline{Klasyczny oscylator harmoniczny} – to ciało o masie m na które działa siła proporcjonalna do wychylenia x ciała od stanu równowagi i mająca przeciwny zwrot:\newline
+$ \vec{F} = -k\vec{x} $,\newline
+gdzie k jest stałą wielkością (tzw. stałą sprężystości). Przykładem oscylatora harmonicznego jest ciało na sprężynie, wykonujące niewielkie drgania od położenia równowagi, co zapewnia słuszność założenia o proporcjonalności siły do wychylenia (dla dużych wychyleń założenie to nie byłoby słuszne). Układ drgający ma energię potencjalną:\newline
+$ U(\vec{x}) = \frac{1}{2}kx^2 = \frac{1}{2}m\omega^2x^2 $,\newline
+która jest tym większa, im większe jest rozciągnięcie sprężyny ( $\omega = \sqrt{\frac{k}{m}} $ jest częstotliwością kołową ruchu drgającego). Energia całkowita układu jest sumą energii kinetycznej i potencjalnej: \newline
+$ E = \frac{p^2}{2m} + U(x) $,\newline
+gdzie $ p = mv $ oznacza pęd ciała drgającego w położeniu x. Całkowita energia układu drgającego harmonicznie nie ulega zmianie w czasie, mimo że energia potencjalna zamienia się cyklicznie w energię kinetyczną i odwrotnie, kinetyczna przechodzi w potencjalną.
+
+\underline{W mechanice kwantowej} do opisu ruchu układów fizycznych stosuje się zamiast równania Newtona równanie Schrödingera. Konkretna jego postać zależy od opisywanej sytuacji fizycznej. Jedną z metod znalezienia postaci równania Schrödingera w konkretnych przypadkach jest tzw. metoda kwantowania, polegająca na zamianie w równaniach ruchu mechaniki klasycznej pędu ciała p na operator pędu $ \hat{p} $. Współrzędne położenia ciała, np. \textit{x} pozostawia się przy tym bez zmian (nadając mu teraz nazwę operatora położenia). Słuszność tej metody uzasadnia fakt, że otrzymane za jej pomocą równania dają przewidywania zgodne z wynikami eksperymentów. W przypadku ruchu jednowymiarowego operator pędu ma postać:\newline
+$ \hat{p} = -i\hbar\frac{d}{dx} $
+
+Ponieważ poszukiwany jest opis stanu układu w zależności od współrzędnych \textit{x}, dlatego trzeba znaleźć jawną postać równania Schrödingera w reprezentacji położeniowej, przy czym dla uproszczenia założymy, że energia układu jest niezmienna. (Podobnie zakłada się, rozwiązując zagadnienie poziomów energetycznych atomu wodoru). Jest to uzasadnione, jeżeli układ drgający pozostaje dłuższy czas w izolacji od otoczenia. Dlatego stosuje się równanie Schrödingera niezależne od czasu:\newline
+$ \hat{H}\Psi(x,t) = E\Psi(x,t)$,\newline
+gdzie E oznacza energię układu. Pozostaje znalezienie jawnej postaci operatora Hamiltona $ \hat{H}$. W tym celu do wyrażenia na energię całkowitą E oscylatora klasycznego (patrz wyżej) w miejsce klasycznego pędu p podstawia się operator pędu $ \hat{p} $:\newline
+$ \hat{H} = \frac{\hat{p}^2}{2m} + \frac{1}{2}m\omega^2x^2 $.\newline
+Podstawiając jawną postać operatora pędu, otrzymuje się ostatecznie:\newline
+$ \hat{H} = \frac{-\hbar^2}{2m}\frac{d^2}{dx^2} + \frac{1}{2}m\omega^2x^2 $.\newline
+Równanie Schrödingera niezależne od czasu przyjmuje więc postać:\newline
+$ \frac{-\hbar^2}{2m}\frac{d^2}{dx^2}\psi(x) + \frac{1}{2}m\omega^2x^2\psi(x) = E\psi(x) $.\newline
+Rozwiązując powyższe równanie otrzymujemy zbiór możliwych stanów stacjonarnych (niezależnych od czasu) układu $ \psi_n(x) $, dla n = 0,1,2,... . Stanom własnym odpowiadają wartości własne (energie oscylatora) o następujących wartościach:\newline
+$ E_n = \hbar\omega(n + \frac{1}{2}) $, dla n = 0,1,2,... .\newline
+Układ kwantowy drgający harmonicznie przyjmuje tylko wyróżnione wartości energii, czym różni się od układu klasycznego (makroskopowego) – ten ostatni może drgać, mając dowolną wartość energii. Ponieważ drgające układy mikroskopowe faktycznie przyjmują dyskretne poziomy energii, widoczne się staje, że teoria Schrödingera dostarcza właściwego ich opisu. Najmniejsza energia drgań nie jest zerowa, gdyż $ E_0 = \frac{\hbar\omega}{2} $. Jest to tzw. energia drgań zerowych, która nie jest znana fizyce klasycznej. Istnienie tej energii oznacza, że układ kwantowy nigdy nie może być w absolutnym spoczynku. 
