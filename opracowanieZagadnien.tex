@@ -1,0 +1,29 @@
+% article example for classicthesis.sty
+\documentclass[10pt,a4paper]{article} % KOMA-Script article scrartcl
+\usepackage{lipsum}
+\usepackage{url}
+\usepackage[nochapters]{classicthesis} % nochapters
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\begin{document}
+    \pagestyle{plain}
+    \title{\rmfamily\normalfont\spacedallcaps{Opracowanie zagadnień na egzamin dyplomowy}}
+    \date{} % no date
+
+    \maketitle
+
+    \tableofcontents
+
+    \section{Zagadnienia obejmujące podstawowe treści programowe kierunku studiów Fizyka Techniczna do egzaminu dyplomowego na studiach II stopnia}
+    \subsection{Ruch w mechanice newtonowskiej i relatywistycznej}
+    \input{generalIssues/motion.tex}
+    \subsection{Zasady zachowania i symetrie w fizyce}
+	\input{generalIssues/symmetries.tex}
+	\subsection{Klasyczny i kwantowy oscylator harmoniczny}
+	\input{generalIssues/oscillators.tex}
+	
+    \section{Specjalność: Eksploracja Danych i Modelowanie Interdyscyplinarne}
+
+\end{document}
