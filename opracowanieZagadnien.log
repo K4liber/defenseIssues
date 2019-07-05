@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.24)  4 JUL 2019 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.24)  5 JUL 2019 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,46 +797,153 @@ Now handling font encoding OT4 ...
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks20
 )
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count108
+\float@exts=\toks21
+\float@box=\box27
+\@float@everytoks=\toks22
+\@floatcapt=\box28
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen127
+\captionmargin@=\dimen128
+\captionwidth=\dimen129
+\caption@tempdima=\dimen130
+\caption@indent=\dimen131
+\caption@parindent=\dimen132
+\caption@hangindent=\dimen133
+)
+\c@ContinuedFloat=\count109
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count110
+\c@subtable=\count111
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen134
+\Gin@req@width=\dimen135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip88
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen136
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen137
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count112
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count113
+\leftroot@=\count114
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count115
+\DOTSCASE@=\count116
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen138
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count117
+\c@MaxMatrixCols=\count118
+\dotsspace@=\muskip11
+\c@parentequation=\count119
+\dspbrk@lvl=\count120
+\tag@help=\toks24
+\row@=\count121
+\column@=\count122
+\maxfields@=\count123
+\andhelp@=\toks25
+\eqnshift@=\dimen139
+\alignsep@=\dimen140
+\tagshift@=\dimen141
+\tagwidth@=\dimen142
+\totwidth@=\dimen143
+\lineht@=\dimen144
+\@envbody=\toks26
+\multlinegap=\skip89
+\multlinetaggap=\skip90
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
 (./opracowanieZagadnien.aux)
 \openout1 = `opracowanieZagadnien.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Try loading font information for OT4+pplj on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring OFF on input line 15.
 
-LaTeX Font Info:    No file OT4pplj.fd. on input line 10.
-
-
-LaTeX Font Warning: Font shape `OT4/pplj/m/n' undefined
-(Font)              using `OT4/cmr/m/n' instead on input line 10.
-
-\AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 10.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count108
+\c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
 (./opracowanieZagadnien.out) (./opracowanieZagadnien.out)
 \@outlinefile=\write3
@@ -845,20 +952,35 @@ LaTeX Info: Redefining \nameref on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count109
-\scratchdimen=\dimen127
-\scratchbox=\box28
-\nofMPsegments=\count110
-\nofMParguments=\count111
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count112
-\MPscratchDim=\dimen128
-\MPnumerator=\count113
-\makeMPintoPDFobject=\count114
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count125
+\scratchdimen=\dimen145
+\scratchbox=\box32
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen146
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks29
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-\big@size=\dimen129
-LaTeX Info: Redefining \microtypecontext on input line 10.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \microtypecontext on input line 15.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -866,37 +988,41 @@ Package microtype Info: No font expansion.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for OML+plm on input line 16.
+LaTeX Font Info:    Try loading font information for OML+plm on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 16.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 21.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 16.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 21.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <17.28> on input line 16.
+(Font)              <17.28> on input line 21.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <12> on input line 16.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 16.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 16.
+(Font)              <10> on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 21.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -907,33 +1033,34 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <9> on input line 16.
+(Font)              <9> on input line 21.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 16.
+(Font)              <7> on input line 21.
 
 
 LaTeX Warning: No \author given.
 
-
-LaTeX Font Warning: Font shape `OT4/pplj/m/sc' undefined
-(Font)              using `OT4/pplj/m/n' instead on input line 17.
-
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7.6> on input line 17.
+(Font)              <7.6> on input line 22.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 17.
-(./opracowanieZagadnien.toc)
+(Font)              <6> on input line 22.
+(./opracowanieZagadnien.toc
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+)
 \tf@toc=\write4
 \openout4 = `opracowanieZagadnien.toc'.
 
 
-
-LaTeX Font Warning: Font shape `OT4/pplj/m/it' undefined
-(Font)              using `OT4/pplj/m/n' instead on input line 20.
+Overfull \hbox (7.56415pt too wide) in paragraph at lines 24--24
+|[]\T1/pplj/m/sc/10/80ls zagadnienia obej-mu-j¡-ce pod-sta-wo-we tre-±ci pro-gr
+a-mo-we kie-
+ []
 
 (./generalIssues/motion.tex
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 27.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
@@ -946,63 +1073,93 @@ LaTeX Warning: The counter will not be printed.
 LaTeX Warning: The counter will not be printed.
              The label is: - on input line 4.
 
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 8.
 
-LaTeX Font Warning: Font shape `OT4/pplj/bx/n' undefined
-(Font)              using `OT4/pplj/m/n' instead on input line 8.
-
-
-Overfull \hbox (3.77505pt too wide) in paragraph at lines 14--15
-[]\OT4/pplj/bx/n/10 Elektromagnetyzm, gra-wi-ta-cja i od-dzia-ªy-wa-nia sil-ne 
-s¡ nie-zmien-ni-cze wzgl¦-
+Overfull \hbox (0.73923pt too wide) in paragraph at lines 8--9
+[]\T1/pplj/m/n/10 Symetria zwier-cia-dla-na \T1/pplj/b/n/10 P \T1/pplj/m/n/10 z
+wi¡-za-na z prze-ksztaª-ce-niem od-bi-cia prze-strzen-
  []
 
+[2]
 
 LaTeX Warning: The counter will not be printed.
              The label is: - on input line 18.
 
-[2]) (./generalIssues/oscillators.tex) [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
+) (./generalIssues/oscillators.tex [3]) (./generalIssues/maxwell.tex
+<generalIssues/Figures/maxwell1.png, id=85, 211.79124pt x 162.6075pt>
+File: generalIssues/Figures/maxwell1.png Graphic file (type png)
+<use generalIssues/Figures/maxwell1.png>
+Package pdftex.def Info: generalIssues/Figures/maxwell1.png  used on input line
+ 5.
+(pdftex.def)             Requested size: 164.64185pt x 126.41153pt.
+<generalIssues/Figures/maxwell2.png, id=87, 178.6675pt x 138.5175pt>
+File: generalIssues/Figures/maxwell2.png Graphic file (type png)
+<use generalIssues/Figures/maxwell2.png>
+Package pdftex.def Info: generalIssues/Figures/maxwell2.png  used on input line
+ 11.
+(pdftex.def)             Requested size: 164.64185pt x 127.65111pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--36
+
+ []
+
+[4 <./generalIssues/Figures/maxwell1.png> <./generalIssues/Figures/maxwell2.png
+>]
+Overfull \hbox (2.08981pt too wide) in paragraph at lines 41--42
+[]$[]$ \T1/pplj/m/n/10 - nie ist-nie-j¡ ªa-dun-ki ma-gne-tycz-ne, a stru-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--58
+
+ []
+
+[5])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 36.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 36.
  (./opracowanieZagadnien.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 36.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 36.
 Package rerunfilecheck Info: File `opracowanieZagadnien.out' has not changed.
-(rerunfilecheck)             Checksum: E5878B42428F61A1DF9A6438C936C7AF;545.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
+(rerunfilecheck)             Checksum: 10FB27F2852239B015DC1ABC0DEF8446;651.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 36.
  ) 
 Here is how much of TeX's memory you used:
- 10989 strings out of 492982
- 197447 string characters out of 6134896
- 457330 words of memory out of 5000000
- 14342 multiletter control sequences out of 15000+600000
- 22735 words of font info for 58 fonts, out of 8000000 for 9000
+ 13344 strings out of 492982
+ 234664 string characters out of 6134896
+ 496490 words of memory out of 5000000
+ 16611 multiletter control sequences out of 15000+600000
+ 57363 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,22n,79p,854b,604s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,21n,81p,853b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/pl/plme.enc}{/usr/share/texlive/texmf-dist/fonts/e
 nc/dvips/pl/plrm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc
 }{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/pl/plex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/p
-l/plmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi6.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/pl/plr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/p
-l/plr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/pl/plsy6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/pl/plsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
-no/uplr8a.pfb>
-Output written on opracowanieZagadnien.pdf (4 pages, 80726 bytes).
+/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/pl/plex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi6.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/pl/plmi8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/pl/plr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/pl/plr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/pl/plsy6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/pl/plsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
+atino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on opracowanieZagadnien.pdf (6 pages, 134549 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 9769 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 16443 words of extra memory for PDF output out of 17280 (max. 10000000)
 
