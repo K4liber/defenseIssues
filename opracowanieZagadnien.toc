@@ -5,4 +5,5 @@
 \contentsline {subsection}{\numberline {1.4}{Fizyczna tre\IeC {\'s}\IeC {\'c} r\IeC {\'o}wna\IeC {\'n} Maxwella i r\IeC {\'o}wnania falowego.}}{4}{subsection.1.4}
 \contentsline {subsection}{\numberline {1.5}{W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci fal elektromagnetycznych.}}{6}{subsection.1.5}
 \contentsline {subsection}{\numberline {1.6}{Interferencja i dyfrakcja fal.}}{8}{subsection.1.6}
-\contentsline {section}{\numberline {2}{Specjalno\IeC {\'s}\IeC {\'c}: Eksploracja Danych i Modelowanie Interdyscyplinarne}}{10}{section.2}
+\contentsline {subsection}{\numberline {1.7}{Zasady termodynamiki.}}{10}{subsection.1.7}
+\contentsline {section}{\numberline {2}{Specjalno\IeC {\'s}\IeC {\'c}: Eksploracja Danych i Modelowanie Interdyscyplinarne}}{11}{section.2}
