@@ -7,4 +7,5 @@
 \contentsline {subsection}{\numberline {1.6}{Interferencja i dyfrakcja fal.}}{8}{subsection.1.6}
 \contentsline {subsection}{\numberline {1.7}{Zasady termodynamiki.}}{11}{subsection.1.7}
 \contentsline {subsection}{\numberline {1.8}{Entropia w uj\IeC {\k e}ciu termodynamicznym i statystycznym.}}{12}{subsection.1.8}
-\contentsline {section}{\numberline {2}{Specjalno\IeC {\'s}\IeC {\'c}: Eksploracja Danych i Modelowanie Interdyscyplinarne}}{13}{section.2}
+\contentsline {subsection}{\numberline {1.9}{Klasyczne i kwantowe rozk\IeC {\l }ady statystyczne.}}{13}{subsection.1.9}
+\contentsline {section}{\numberline {2}{Specjalno\IeC {\'s}\IeC {\'c}: Eksploracja Danych i Modelowanie Interdyscyplinarne}}{16}{section.2}
