@@ -1,0 +1,45 @@
+\underline{Hamiltonian (funkcja Hamiltona)} – funkcja współrzędnych uogólnionych i pędów uogólnionych, opisująca układ fizyczny:\newline
+$ H = H(q_1,...,q_N,p_1,...,p_N,t) $, gdzie:\newline
+$ q_j $ - współrzędne uogólnione,\newline
+$ p_j $ - pędy uogólnione,\newline
+$ N $ - liczba stopni swobody,\newline
+$ t $ - czas.
+
+Funkcję Hamiltona otrzymuje się z wyrażenia na energię całkowitą układu (przy czym prędkości wyraża się za pomocą pędów) np:
+
+\begin{itemize}
+	\item Hamiltonian punktu materialnego poruszającego się z prędkością nierelatywistyczną w potencjale V:\newline
+	$ H(t,\textbf{q},\textbf{p}) = \dfrac{\textbf{p}^2}{2m} + V(\textbf{q}) $
+	\item Hamiltonian oscylatora harmonicznego poruszającego się w kierunku $ x $:\newline
+	$ H(x, p) = \dfrac{p^2}{2m} + \dfrac{m\omega_0^2x^2}{2} $
+\end{itemize}
+
+Funkcję Hamiltona można też otrzymać z funkcji Lagrange’a (za pomocą tzw. transformacji Legendre’a). Funkcja Lagrange'a:\newline
+$ L(q_1(t),...q_n(t),\dot{q}_1(t),...,\dot{q}_N(t),t) = \\ T(q_1(t),...q_n(t),\dot{q}_1(t),...,\dot{q}_N(t),t) - U(q_1(t),...q_n(t),\dot{q}_1(t),...,\dot{q}_N(t),t) $, gdzie:\newline
+$ T $ - energia kinetyczna,\newline
+$ U $ - uogólniona energia potencjalna.\newline
+$ q_j $ - współrzędna uogólniona,\newline
+$ {q}_j $ - prędkość uogólniona.\newline
+
+Dla każdej prędkości uogólnionej $ \dot{q}_j $ wyznacza się odpowiadający jej pęd uogólniony $ p_j $, zdefiniowany jako pochodna funkcji Lagrange’a po prędkości uogólnionej $ \dot{q}_j $:\newline
+$ p_j = \dfrac{\partial L}{\partial \dot{q}_j} $
+
+Hamiltonian można znaleźć teraz z funkcji Lagrange’a za pomocą tzw. transformacji Legendre’a:\newline
+$ H = H(q_1,...,q_N,p_1,...,p_N,t) = \sum_{i}\dot{q}_j p_j - L(q_1(t),...q_n(t),\dot{q}_1(t),...,\dot{q}_N(t),t)  $ \newline
+przy czym konieczne jest wyrażenie prędkości uogólnionych występujących w funkcji Lagrange’a przez pędy uogólnione, gdyż funkcja Hamiltona musi być zapisana jako funkcja pędów uogólnionych. Nie dla wszystkich układów taka transformacja jest możliwa. W przypadku współrzędnych kartezjańskich pędy uogólnione są zwykłymi pędami. We współrzędnych walcowych jako jedną ze współrzędnych uogólnionych cząstki przyjmuje się kąt; wtedy prędkość uogólniona jest prędkością kątową, a pęd uogólniony – obliczany jako pochodna funkcji Lagrange’a po prędkości kątowej – okazuje się być momentem pędu cząstki. W ogólnym przypadku pędy uogólnione mogą nie posiadać prostej interpretacji fizycznej, co wynika z dowolności wyboru współrzędnych uogólnionych.
+
+\underline{Operator Hamiltona} $ \hat{H} $ - operator definiowany w mechanice kwantowej, będący odpowiednikiem funkcji Hamiltona $ H $ (hamiltonianu) mechaniki klasycznej. Operator Hamiltona działa na wektory stanu układu kwantowego: \newline
+$ \hat{H}|\Psi(t) \rangle = i\hbar\dfrac{\partial}{\partial t}|\Psi(t) \rangle $\newline
+tworząc zależne od czasu równanie Schrodingera. Operator Hamiltona jest jedną z obserwabli, jakie wprowadza mechanika kwantowa, czyli operatorem takim, że jego wartości własne są wielkościami, które można otrzymać w eksperymencie. Wartości własne operatora Hamiltona przedstawiają wartości energii, jakie układ kwantowy może posiadać. Ponieważ energie wyraża się za pomocą liczb rzeczywistych, to implikuje, że operator Hamiltona musi być operatorem hermitowskim (operatorem samosprzężonym) $ \hat{H} = \hat{H}^\dag $. Jest tak dlatego, że tylko operator hermitowski ma wartości własne będące zawsze liczbami rzeczywistymi.
+
+Aby uzyskać postać operatora Hamiltona dla danego układu, w klasycznej funkcji Hamiltona zamienia się współrzędne uogólnione i pędy na odpowiadające im operatory. Najprościej dokonuje się tego, gdy współrzędnymi uogólnionymi są współrzędne kartezjańskie $ x_i $, które pozostawia się bez zmian, a np. w przypadku cząstki swobodnej pędom przypisuje się operatory różniczkowania po sprzężonych z nimi współrzędnych:\newline
+$ p_i \rightarrow \hat{p}_i = -i\hbar \frac{\partial}{\partial x_i} $\newline
+Operator hamiltona dla cząstki swobodnej w polu $ V(x,t) $ będzie miał więc postać:\newline
+$ H(x, p_x, t) = \dfrac{\hat{p}_x^2}{2m} + V(x,t) = \dfrac{-\hbar^2}{2m}\dfrac{\partial^2}{\partial x^2} + V(x,t) $\newline
+
+Jeżeli klasyczna funkcja Hamiltona opisująca dany układ jest niezależna od czasu, to także operator Hamiltona $ \hat{H} $ nie zależy od czasu. Wtedy zamiast ogólnego równania Schrödingera wystarczy rozwiązać równania Schrödingera niezależne od czasu, które jest równaniem własnym hamiltonianu:\newline
+$ \hat{H}|\psi_E\rangle = E|\psi_E\rangle $, gdzie:\newline
+$ E $ -  wartości własne operatora Hamiltona - wartości te są wartościami energii, jakie układ może posiadać,\newline
+$ |\psi_E\rangle $ - stany własne operatora Hamiltona o energiach $ E $.
+
+
