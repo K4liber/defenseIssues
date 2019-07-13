@@ -9,4 +9,5 @@
 \contentsline {subsection}{\numberline {1.8}{Entropia w uj\IeC {\k e}ciu termodynamicznym i statystycznym.}}{12}{subsection.1.8}
 \contentsline {subsection}{\numberline {1.9}{Klasyczne i kwantowe rozk\IeC {\l }ady statystyczne.}}{13}{subsection.1.9}
 \contentsline {subsection}{\numberline {1.10}{Budowa materii.}}{16}{subsection.1.10}
+\contentsline {subsection}{\numberline {1.11}{Dualizm korpuskularno-falowy i jego eksperymentalne potwierdzenie.}}{18}{subsection.1.11}
 \contentsline {section}{\numberline {2}{Specjalno\IeC {\'s}\IeC {\'c}: Eksploracja Danych i Modelowanie Interdyscyplinarne}}{18}{section.2}
