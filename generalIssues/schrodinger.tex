@@ -1,0 +1,32 @@
+\underline{Równanie Schrödingera} – jedno z podstawowych równań nierelatywistycznej mechaniki kwantowej opisujące funkcję falową albo stan układu kwantowego.
+
+Najbardziej ogólna forma zależnego od czasu równania Schrödingera:\newline
+$ i\hbar\dfrac{d}{dt}|\Psi(t) \rangle = \hat{H}|\Psi(t) \rangle $, gdzie:\newline
+$ i $ - jednostka urojona, \newline
+$ \hbar = h/2\pi $, $ h $ - stała Plancka, \newline
+$ \hat{H} $ - operator Hamiltona, \newline
+$ |\Psi(t) \rangle $ - wektor stanu układu.
+
+Aby rozwiązać równanie Schrödingera dla danego układu kwantowego, należy znaleźć właściwą postać operatora Hamiltona oraz wyrazić wektor stanu w odpowiedniej reprezentacji, np. dla pojedynczej cząstki w jednym wymiarze $ x $, w potencjale $ V(x) $ hamiltonian wygląda następująco:\newline
+$ \hat{H} = \dfrac{\hat{p}^2}{2m} + V(x) = \dfrac{\hbar^2}{2m}\dfrac{d^2}{dx^2} + V(x) $
+
+Gdy potencjał nie zależy od czasu, funkcję falową możemy zapisać jako iloczyn części przestrzennej i czasowej:\newline
+$ \Psi(x,t) = \psi(x)\psi(t) $ otrzymując następującą formę równania Schrödingera:\newline
+$ i\hbar\dfrac{ d(\psi(x)\psi(t))}{dt} = \dfrac{\hbar^2}{2m}\dfrac{d^2(\psi(x)\psi(t))}{dx^2} + V(x)\psi(x)\psi(t) $, następnie odseparowywujemy zmienne i wiedząc, że lewa strona jest tylko zależna od czasu, a prawa tylko od położenia są one równe stałej (na podstawie prawej storny równania stwierdzamy, że stała ta ma wymiar energii):\newline
+$ i\hbar\dfrac{1}{\psi(t)}\dfrac{ d\psi(t)}{dt} = \dfrac{1}{\psi(x)}\Big[\dfrac{\hbar^2}{2m}\dfrac{d^2}{dx^2} + V(x)\Big]\psi(x) = E $\newline
+Z powyższego równania otrzymujemy dwie zależności:\newline
+$ \Psi(x,t) = \psi(x)e^{-iEt/\hbar} $ -  całkowita funkcja falowa różni się od części przestrzennej tylko czynnikiem fazowym,\newline
+$ \dfrac{\hbar^2}{2m}\dfrac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x) $ - niezależne od czasu równanie Schrödingera dla przypadku jednowymiarowego cząstki w potencjale $ V(x) $. 
+
+Funkcje $ \psi(x) $ spełniające powyższe równanie przy zadanym potencjale $ V(x) $ nazywamy funkcjami
+własnymi, a wartości energii, dla których istnieją te rozwiązania, nazywamy wartościami własnymi.
+
+Funkcja własna jak i jej pochodna musi być skończona, jednoznaczna i ciągła. Gęstość prawodopodobieństwa znaleznia cząstki opisuje wzór:\newline
+$ P(x,t) = \Psi^*(x,t)\Psi(x,t) = \psi^*(x)\psi(x) = P(x) $, \newline
+Warunek normalizacji dla gęstości prawdopodobieństwa:\newline
+$ \int_{-\infty}^{\infty}\Psi^*(x,t)\Psi(x,t) = 1 $
+
+Równanie Schrödingera jest równaniem liniowym, co oznacza, że jeśli $ \Psi_1(x,t) $, $ \Psi_2(x,t) $ są rozwiązaniami tego równania, to również liniowa kombinacja tych funkcji jest rozwiązaniem tego
+równania. Uogólniając:\newline
+$ \Psi(x,t) = \sum_N a_N\Psi_N(x,t) $ jest rozwiązaniem równania Schrödingera przy dowolnych $ a_N $ gdy $ \Psi_1 $,...,$ \Psi_N $ są rozwiązaniami
+tego równania.
