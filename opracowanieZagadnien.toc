@@ -15,3 +15,4 @@
 \contentsline {subsection}{\numberline {1.14}{Podstawy formalizmu kwantowego \IeC {\textendash } wielko\IeC {\'s}ci fizyczne, stany, operatory.}}{21}{subsection.1.14}
 \contentsline {subsection}{\numberline {1.15}{Kwantowy opis atomu wodoru. Liczby kwantowe.}}{21}{subsection.1.15}
 \contentsline {section}{\numberline {2}{Specjalno\IeC {\'s}\IeC {\'c}: Eksploracja Danych i Modelowanie Interdyscyplinarne}}{23}{section.2}
+\contentsline {subsection}{\numberline {2.1}{Automaty kom\IeC {\'o}rkowe.}}{23}{subsection.2.1}
