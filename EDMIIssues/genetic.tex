@@ -1,0 +1,28 @@
+\underline{Algorytmy genetyczne} stanowią podgrupę algorytmów ewolucyjnych. Są to algorytmy poszukiwania oparte na mechanizmach doboru naturalnego oraz dziedziczności. Oznacza to, iż wykorzystujemy ewolucję aby poprzez operatory (mutacje i krzyżowanie) otrzymać z niemal losowych danych to co będziemy uważać za poprawne. AG pracują na zakodowanej formie rozwiązań oraz na całej populacji rozwiązań. Bazują tylko na funkcji celu (nie musi być ona ciągła ani różniczkowalna, ani także być funkcją analityczną).
+
+\underline{Schematem $ H $} nazywamy wzorzec opisujący podzbiór ciągów podobnych ze względu na ustalone pozycje. Alfabet składający się z $ k $ symboli i ciągów $ l $ elementowych posiada $ k^l $ ciągów i $ (k+1)^l $ schematów. Np. dla alfabetu dwuelementowego $ \{0, 1\} $ alfabet schematu $ V^+ = \{0, 1, *\} $, gdzie $ * $ - oznacza pozycję nieustaloną.
+
+\underline{Rząd schematu} to liczba ustalonych pozycji we wzorcu o(H) np:\newline
+$ o(\{01**01**\}) = 4 $
+
+\underline{Rozpiętość schematu} to odległość między dwiema skrajnymi ustalonymi pozycjami $ \delta (H) $ np:\newline
+$ \delta(\{01**01**\}) = 5 $
+
+$ m(H, t) $ to \underline{liczba reprezentantów} schematu $ H $, czyli jak dużo osobników populacji pasuje do schematu $ H $ w czasie $ t $.
+
+\underline{Wartość oczekiwana} liczby reprezentantów schematu $ H $ w następnym pokoleniu:\newline
+$ E(m(H, t+1)) = m(H, t)\cdot n \cdot \dfrac{f(H)}{\sum_i f_i} = m(H, t) \cdot \dfrac{f(H)}{\overline{f}} $, gdzie:\newline
+$ f(H) $ - współczynnik dostosowania schematu $ H $,\newline
+$ \overline{f} = \dfrac{\sum_i f_i}{n} $ - średni współczynnik dostosowania całej populacji.
+
+\underline{Prawdopodobieństwo przeżycia schematu}:\newline
+$ p_s(H) \geq \dfrac{\delta (H)}{l-1} $
+
+Oczekiwana liczba reprezentantów schematu H w następnym pokoleniu, otrzymanym w wyniku reprodukcji, krzyżowania i mutacji, spełnia następującą nierówność:\newline
+$ m(H, t+1) \geq m(H, t) \cdot \dfrac{f(H)}{\overline{f}} [1 - p_c \dfrac{\delta (H)}{l-1} - p_m o(H)] $, gdzie: \newline
+$ p_c $ - prawdopodobieństwo krzyżowania,\newline
+$ p_m $ - prawdopodobieństwo mutacji.
+
+Dla schematów niskiego rzędu i o małej rozpiętości  destruktywne efekty krzyżowania i mutacji można pominąć, a wtedy:\newline
+$ m(H, t+1) = m(H, t) \cdot (1+ \epsilon ) $, przy założeniu, że $ f(H, t) = (1+ \epsilon )\overline{f} $ czyli schemat $ H $ ma dopasowanie o $ \epsilon $ większe niż średnia z populacji. Zakładając że $ \epsilon $ nie zmienia się w czasie, wówczas długoterminowy efekt przetwarzania schematu $ H $ będzie następujący:\newline
+$ m(H, t+s) = m(H, t)(1 + \epsilon)^s $ - oceniane "powyżej średniej" schematy o "niskiego rzędu" i o "małej rozpiętości" uzyskują wykładniczo rosnącą liczbę reprezentantów w kolejnych pokoleniach. Ta konkluzja jest nazywana \underline{podstawowym twierdzeniem algorytmów genetycznych}.
