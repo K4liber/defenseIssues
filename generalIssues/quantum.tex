@@ -1,0 +1,25 @@
+Stan układu kwantowego reprezentowany jest przez wektor stanu w przestrzeni Hilberta (przestrzeń wektorowa nad ciałem liczb zespolonych). Do oznaczania wektorów stanu stosuje się notację Diraca. Wektor stanu oznacza się przez ket $ |\Psi \rangle $, a wektor dualny (sprzężony) do niego przez $ \langle \Psi | $.
+
+Każda wielkość fizyczna (obserwabla) reprezentowana jest przez hermitowski (lub samosprzężony) operator liniowy działający w przestrzeni stanów (przestrzeni Hilberta). Zbiór wartości własnych tego operatora, nazywany widmem punktowym operatora, interpretuje się jako zbiór możliwych wartości obserwowalnych (pomiarowych). Dla hermitowskich operatorów wartości w widmie są liczbami rzeczywistymi. Stany własne (wektory w łasne) tego operatora do tych wartości własnych interpretuje się jako możliwe stany, w których znajdzie się układ po dokonaniu pomiaru. 
+
+Wektor stanu można zapisać w postaci poniższej sumy:\newline
+$ |\Psi\rangle = \sum_i |i \rangle \langle i | \Psi \rangle $
+
+Prawdopodobieństwa otrzymania poszczególnych wartości pomiarów:\newline
+$ P_i = |\langle i | \Psi \rangle |^2 $
+
+
+Operator pędu w reprezentacji położeniowej można otrzymać, używając rozwiązania fali płaskiej do równania Schrödingera pojedynczej cząstki: \newline
+$ \Psi(x,t) = e^{\frac{i}{\hbar}(px-Et)} $, gdzie: \newline
+$ p $ - pęd cząstki w kierunku $ x $,\newline
+$ E $ - energia cząstki.\newline
+Pochodna cząstkowa 1-go rzędu wzdłuż $ x $ wynosi:\newline
+$ \dfrac{\partial \Psi(x,t)}{\partial x} = \dfrac{ip}{\hbar} e^{\frac{i}{\hbar}(px-Et)} $, stąd:\newline
+$ \hat{p} = -i\hbar \dfrac{\partial}{\partial x} $
+
+Ważną cechą kwantowego operatora położenia jest to, że nie komutuje on z operatorem pędu (są to operatory kanonicznie sprzężone). Operatory te spełniają relację komutacyjną:\newline
+$ [x_i, p_j] = i\hbar \delta_{ij} $, gdzie:\newline
+$ [\textbf{A}, \textbf{B}] = \textbf{A} \textbf{B} - \textbf{B} \textbf{A} $\newline
+Powyższa zależność jest matematycznym zapisem zasady nieoznaczoności, która można zapisać również jako:\newline
+$ \Delta x \Delta p_x \geq \dfrac{\hbar}{2} $, gdzie:\newline
+$ \Delta x, \Delta p_x $ - niepewności wynikające z istoty samego pomiaru (wpływu pomiaru na obiekt mierzony)
