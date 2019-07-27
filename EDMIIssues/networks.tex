@@ -1,0 +1,25 @@
+\underline{Sieć bezskalowa} to sieć o potęgowym rozkładzie liczby połączeń między węzłami:\newline
+$ P(k) = \dfrac{C}{k^{\gamma}} $, gdzie:\newline
+$ k $ - liczba węzłów, \newline
+$ \gamma $ - parametr właściwy dla danej sieci i zwykle przyjmującym wartości z zakresu $ (2, 3) $.
+
+Potęgowy rozkład stopni wierzchołków jest cechą charakterystyczną wielu sieci rzeczywistych (np. sieć energetyczna, sieć www). Rozkład potęgowy nie ma naturalnej skali, jest bezskalowy. Oznacza to, że mówienie o średnich wartościach stopni wierzchołków w takich sieciach jest co najmniej niewskazane, a wielu wypadkach posługiwanie się ideą średniego stopnia prowadzi do poważnych błędów. W sieci o potęgowym rozkładzie stopni wierzchołków wiele węzłów ma tylko jedną krawędź (tłusty ogon), ale można też znaleźć węzły z ogromną liczbą krawędzi, tzw. huby.
+
+Nie wszystkie tłustoogoniaste rozkłady są potęgowe. Zlogarytmizujmy obie strony równania opsiującego rozkład potęgowy:\newline
+$ ln(P(k)) = -\gamma ln(k) + ln(C) $\newline
+Rozkład potęgowy charakteryzuje się tym, że przedstawiony w nowych współrzędnych tj. $ X = ln(k) $, $ Y = ln(P(k)) $ staje się równoważny liniowej zależności $ Y = aX + b $.
+
+Sieci bezskalowe charakteryzują się łatwością w niszczeniu topologii sieci, poprzez usunięcie wierzchołków o dużej liczbie połączeń tzw. "hub-ów", które są krytyczne dla łączności sieci np. awaria istotnego węzła sieci energetycznej, albo atak hakerski na ruchliwy serwer.
+
+Sieci bezskalowe mogą być generowane zgodnie z modelem Barabasi-Alberta. Proces konstrukcji takiej sieci wygląda następująco:
+\begin{itemize}
+	\item Rozpocznij proces od pewnego niewielkiego zbioru wierzchołków (zazwyczaj jednego).
+	\item W każdym kroku dodaj jeden wierzchołek i dołącz do już istniejących dając preferencje tym którzy już mają dobrą łączność (prawdopodobieństwo dodania krawędzi do wierzchołka $ v $jest proporcjonalne do aktualnego stopnia $ d_v $ - wiązanie preferencyjne). Ilość dodawanych w każdym kroku krawędzi jest parametrem modelu $ m $.
+\end{itemize}
+
+Powstałe w ten sposób sieci charakteryzują się rozkładem krawędzi:\newline 
+$ P(k) \approx \dfrac{2m^2}{k^3} $.
+
+Prawo potęgowe wraz z wykładnikiem są niezmiennicze dla losowego podgrafu (z dużym prawdopodobieństwem). Tutaj pojawia się wyjaśnienie terminu ”bezskalowy”.
+
+\underline{Sieci małych światów:}\newline \textit{W eksperymencie przeprowadzonym w 1967 roku amerykański socjolog Stanley Milgram wysłał do przypadkowo wybranych ludzi 160 listów zawierających wyjaśnienie eksperymentu, zdjęcie, nazwisko i adres pewnej osoby oraz instrukcję postępowania. Jeżeli adresat znał osobiście człowieka wymienionego w liście, miał przesłać list bezpośrednio do niego. W przeciwnym wypadku list powinien zostać przesłany do innego znajomego, o którym adresat mógł sądzić, że może znać poszukiwaną osobę lub przynajmniej znać kogoś, kto tę osobę zna osobiście. Celem eksperymentu było ustalenie, jak długi jest łańcuch znajomych gwarantujący dostarczenie przesyłki do adresata.  Choć większość listów zaginęła, to jednak te 42, które dotarły do poszukiwanej osoby, dostarczyły zaskakujących wyników. Okazało się, że paru listom wystarczyło zaledwie dwóch pośredników by dotrzeć do celu. W kilku innych przypadkach pośredników było kilkunastu. Jednak, po uśrednieniu wyników, okazało się, że statystyczny list przeszedł przez ręce jedynie sześciu osób. Eksperyment Milgrama dowiódł prawdziwości obiegowego porzekadła (znanego również Barneyowi), że świat jest mały. Mimo że sieć społeczna liczy kilka miliardów ludzi, to średnia droga między dowolną parą węzłów w takiej sieci wynosi około sześciu. Ponad dwadzieścia lat po eksperymencie Milgrama ukute zostało nawet sformułowanie „sześć uścisków dłoni” albo „sześć stopni separacji”. } Żródło: \newline (\url{http://www.if.pw.edu.pl/~agatka/moodle/charakterystyki.html#x1-2002r1})

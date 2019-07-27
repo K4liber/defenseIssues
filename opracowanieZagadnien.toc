@@ -17,3 +17,4 @@
 \contentsline {section}{\numberline {2}{Specjalno\IeC {\'s}\IeC {\'c}: Eksploracja Danych i Modelowanie Interdyscyplinarne}}{23}{section.2}
 \contentsline {subsection}{\numberline {2.1}{Automaty kom\IeC {\'o}rkowe.}}{23}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}{Podstawowe twierdzenie algorytm\IeC {\'o}w genetycznych.}}{25}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}{Sieci bezskalowe.}}{26}{subsection.2.3}
