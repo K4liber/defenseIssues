@@ -1,0 +1,44 @@
+\underline{Naiwny klasyfikator Bayesa} - klasyfikator oparty na założeniu o wzajemnej niezależności zmiennych objaśniających (predyktorów). Często nie mają one żadnego związku z rzeczywistością i właśnie z tego powodu nazywa się je naiwnymi. Bardziej opisowe jest określenie – „model cech niezależnych”. Model prawdopodobieństwa można wyprowadzić korzystając z \underline{twierdzenia Bayesa} wiążącego prawdopodobieństwa warunkowe dwóch zdarzeń warunkujących się nawzajem:\newline
+$ P(A|B) = \dfrac{{P(B|A)P(A)}}{P(B)} $, gdzie:\newline
+$ A $ i $ B $ - zdarzenia,\newline
+$ P(A|B) $ - prawdopodobieństwo warunkowe, tj. prawdopodobieństwo zajścia zdarzenia $ A $, o ile zajdzie zdarzenie $ B $.
+
+\underline{Przykład} zastosowania twierdzenia Bayesa:\newline
+$ B $ -  zdarzenie "u pacjenta występuje wysoka gorączka" (w badanej populacji $ P(B) = 0.2 $),\newline
+$ A $ - zdarzenie "pacjent ma grypę" (w badanej populacji $ P(A) = 0.1 $),\newline
+$ P(B|A) = 0.7 $ - na podstawie statystyki populacji wiemy, że jeśli pacjent ma grypę to na 70\% ma gorączkę.\newline
+Na podstawie twierdzenia Bayesa możemy obliczyć prawdopodobieństwo, że pacjent mający gorączkę, jest chory na grypę:\newline
+$ P(A|B) = \dfrac{{P(B|A)P(A)}}{P(B)} = \dfrac{0,7\cdot 0,1}{0,2} = 0,35$ 
+
+Korzystając z twierdzenia Bayesa:\newline
+$ p(C|F_1,...,F_n) = \dfrac{P(C)P(F_1,...,F_n|C)}{P(F_1,...,F_n)} $, gdzie:\newline
+$ C $ - klasa zależna od $ n $ opisujących zmiennych niezależnych $ F_i $.
+
+W praktyce interesujący jest tylko licznik ułamka, bo mianownik nie zależy od $ C $. Licznik ułamka jest równoważny do łącznego modelu prawdopodobieństwa:\newline
+$ P(C, F_1,...,F_n) $\newline $ = P(C)P(F_1,...,F_n|C) $\newline $ = P(C)P(F_1|C)P(F_2,...,F_n|C, F_1) $\newline $ = P(C)P(F_1|C)P(F_2|C, F_1)P(F_3,...,F_n|C, F_1, F_2) $\newline
+$ = P(C)P(F_1|C)P(F_2|C, F_1)P(F_3|C, F_1, F_2)P(F_4,...,F_n|C, F_1, F_2, F_3) $\newline itd...\newline
+Włącza się teraz "naiwną" warunkową zależność, zakładając, że każda cecha $ F_i $ jest warunkowo niezależna od każdej innej cechy. Oznacza to, że:\newline
+$ p(F_i|C, F_j) = P(F_i|C) $ więc model można wyrazić jako:\newline
+$ P(C, F_1,...,F_n) = p(C)p(F_1|C)p(F_2|C)...p(F_n|C) = p(C) \prod_{i=1}^{n} p(F_i|C) $
+
+Oznacza to, że pod powyższymi niezależnymi założeniami, warunkowe rozmieszczenie nad klasą zmiennych $ C $ można zapisać jako: \newline
+$ p(C|F_1,...,F_n) = \dfrac{1}{Z} p(C) \prod_{i=1}^{n} p(F_i|C) $, gdzie:\newline
+$ Z $ - współczynnik skalowania zależny wyłącznie od zmiennych $ F_1,...,F_n $.
+
+Modele tej formy są łatwiejsze do zrealizowania, gdy rozłoży się je na czynniki zwane klasą „prior” $ p(C) $ i niezależny rozkład prawdopodobieństwa $ p(F_i|C) $. Jeśli są $ k $ klasy i jeśli model dla $ p(F_i) $ może być wyrażony przez r parametrów, wtedy odpowiadający naiwny model Bayesa ma $ (k-1) + nrk $ parametrów. W praktyce często $ k = 2 $ (klasyfikacja binarna) i $ r = 1 $ (zmienna Bernouliego jako cecha), wtedy całkowita liczba parametrów naiwnego modelu Bayesa to $ 2n+1 $, gdzie $ n $ jest liczbą cech. 
+
+W przypadku uczenia z nadzorem, parametry modelu można obliczyć stosując wnioskowanie Bayesa lub inną parametryczną procedurę estymacji.
+
+Dotychczasowe omówienie problemu wyprowadziło model niezależnych cech, które są naiwnym probabilistycznym modelem Bayesa. Naiwny klasyfikator bayesowski łączy ten model z regułą decyzyjną:\newline
+
+$ class(f_1,...,f_n) = \underset{c}{\mathrm{argmax}} \ p(C = c)\prod_{i=1}^{n}p(F_i = f_i|C = c) $
+
+\underline{Przykład}\newline
+Chcemy sprawdzić czy dany dokument $ D $ jest spamem - $ S $ czy nie - $ \neg S $.  Prawdopodobieństwo, że $ i $-te słowo zdarza się w dokumencie klasy C zapisujemy, jako:\newline
+$ p(w_i|C) $\newline
+Wtedy prawdopodobieństwo, że dokument $ D $ należy do klasy $ C $ wynosi (na podstawie twierdzenia Bayesa):\newline
+$ p(C|D) = \dfrac{p(C)}{P(D)} \prod_i p(w_i|C) $, gdzie $ P(D) = \prod_i p(w_i) $\newline
+$ p(S|D) = \dfrac{p(S)}{P(D)} \prod_i p(w_i|S) $\newline
+$ p(\neg S|D) = \dfrac{p(\neg S)}{P(D)} \prod_i p(w_i|\neg S) $\newline
+
+$ class(D) = S $, jeżeli $ p(S|D) > p(\neg S|D) $ oraz $ class(D) = \neg S $ w przeciwnym wypadku.

@@ -20,3 +20,4 @@
 \contentsline {subsection}{\numberline {2.3}{Sieci bezskalowe.}}{26}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}{Agentowe modele dynamiki opinii.}}{27}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}{Sie\IeC {\'c} neuronowa typu Hopfielda.}}{30}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}{Naiwny klasyfikator Bayesa.}}{31}{subsection.2.6}
