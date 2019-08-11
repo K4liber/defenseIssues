@@ -23,4 +23,5 @@
 \contentsline {subsection}{\numberline {2.6}{Naiwny klasyfikator Bayesa.}}{31}{subsection.2.6}
 \contentsline {subsection}{\numberline {2.7}{Metody badania sygna\IeC {\l }\IeC {\'o}w w dziedzinie czasu i cz\IeC {\k e}sto\IeC {\'s}ci.}}{32}{subsection.2.7}
 \contentsline {subsection}{\numberline {2.8}{Synchronizacja w nieliniowych uk\IeC {\l }adach dynamicznych.}}{34}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}{Metody redukcji wymiaru w eksploracji danych.}}{36}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.9}{R\IeC {\'o}wnanie Fokkera-Plancka.}}{36}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}{Metody redukcji wymiaru w eksploracji danych.}}{37}{subsection.2.10}

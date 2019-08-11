@@ -1,0 +1,28 @@
+\underline{Równanie Fokkera-Plancka} – równanie różniczkowe cząstkowe drugiego rzędu. Opisuje ewolucję czasową funkcji gęstości prawdopodobieństwa $ p(\textbf{x}, \textbf{v}, t) $ położenia i prędkości. Po raz pierwszy równanie to zostało użyte do opisu zjawiska ruchów Browna cząstki zanurzonej w cieczy. Ogólna forma równania dla N zmiennych: 
+
+$ \dfrac{\partial}{\partial t} p(\textbf{x}, \textbf{v}, t) = \bigg[ -\sum\limits_{i=1}^N \dfrac{\partial}{\partial x_i} D_i^1(x_1,...,x_N) + \sum\limits_{i=1}^N \sum\limits_{j=1}^N \dfrac{\partial^2}{\partial x_i \partial x_j} D_{i, j}^2(x_1,...,x_N)\bigg] p(\textbf{x}, \textbf{v}, t) $, gdzie $ D^1 $ to wektor dryftu, a $ D^2 $ oznacza tensor dyfuzji.
+
+Jeśli nie interesują nas prędkości oraz poruszamy się tylko w jednym wymiarze, wtedy równanie F-P upraszcza się do postaci:\newline
+
+$ \dfrac{\partial}{\partial t} p(x, t) = \bigg[ -\dfrac{\partial}{\partial x} D^1(x) +  \dfrac{\partial^2}{\partial x^2} D^2(x)\bigg] p(x, t) $
+
+Następnie możemy zdefiniować potencjał\newline
+
+$ \Phi(x) = \ln D^2(x) + \int\limits_{0}^x \dfrac{D^1(x')}{D^2(x')} dx' $\newline
+
+oraz prąd prawdopodobieństwa: \newline
+
+$ \dfrac{\partial}{\partial t} p(x,t) = \dfrac{\partial}{\partial x} J(x, t) $
+
+$ J(x,t) = D^1 (x,t)p(x,t) - \dfrac{\partial}{\partial x} \big[ D^2(x,t)p(x,t) \big] $
+
+Jeśli $ J $ wyrazimy poprzez $ \Phi $ oraz skorzystamy z warunku brzegowego $ J(x,t) = 0 $, dla $ x \in (a, b) $ to otrzymamy rozwiązanie stacjonarne gęstości prawdopodobieństwa: \newline
+
+$ p_s(x) = \dfrac{N_0}{D^2(x)} \exp \big[ \int\limits_{0}^x \dfrac{D^1(x')}{D^2(x')} dx'\big] $, gdzie: \newline
+$ N_0 = \bigg( \int\limits_a^b \exp[-\Phi()] dx \bigg)^{-1} $
+
+\underline{Przykład}. Dyfuzja w polu grawitacyjnym: $ D^1 = -g = const. $, $ D^2 = \dfrac{D}{2} = const. $
+
+Rozwiązanie stacjonarne gęstości prawdopodobieństwa:
+
+$ p_s(x) = \dfrac{2N_0}{D} \exp \big( -\dfrac{2g}{D}x \big) $
