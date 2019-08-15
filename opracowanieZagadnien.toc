@@ -25,4 +25,5 @@
 \contentsline {subsection}{\numberline {2.8}{Synchronizacja w nieliniowych uk\IeC {\l }adach dynamicznych.}}{34}{subsection.2.8}
 \contentsline {subsection}{\numberline {2.9}{R\IeC {\'o}wnanie Fokkera-Plancka.}}{36}{subsection.2.9}
 \contentsline {subsection}{\numberline {2.10}{Fraktalne i multifraktalne metody analizy sygna\IeC {\l }\IeC {\'o}w.}}{37}{subsection.2.10}
-\contentsline {subsection}{\numberline {2.11}{Metody redukcji wymiaru w eksploracji danych.}}{40}{subsection.2.11}
+\contentsline {subsection}{\numberline {2.11}{Teoria pola \IeC {\'s}redniego dla modelu Isinga.}}{40}{subsection.2.11}
+\contentsline {subsection}{\numberline {2.12}{Metody redukcji wymiaru w eksploracji danych.}}{41}{subsection.2.12}

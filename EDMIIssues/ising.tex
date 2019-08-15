@@ -1,0 +1,39 @@
+\underline{Metoda pola średniego dla modelu Isinga w sieciach regularnych} 
+
+W sieciach regularnych każdy wierzchołek ma taki sam stopień.
+
+Energia modelu Isinga:\newline
+$ E = -J\sum\limits^{i}s_i\sum\limits^{<j>_i}s_j -  \sum\limits^{i} h_i s_i $, gdzie: \newline
+$ J $ - macierz oddziaływań pomiędzy węzłami,\newline
+$ <j>_i $ - najbliższe sąsiedztwo węzła $ i $,\newline
+$ h_i $ - energia spinu $ i $ w zewnętrznym polu. Zakładamy pole jednorodne $ \forall i h_i = h $.
+
+Z dobrym przybliżeniem można przyjąć, że wszystkie węzły sieci i związane z nimi spiny średnio są takie same. Drugą sumę w pierwszym członie można zastąpić jej wartością uśrednioną:\newline
+
+$ E \approx -J \sum\limits^i s_i \cdot z \cdot <s> - h \sum\limits^{i} s_i $, gdzie:\newline
+$ z $ - liczba najbliższych sąsiadów, \newline
+$ <s> = \dfrac{1}{N} \sum\limits^i s_i $, \newline
+$ N $ - liczba węzłów
+
+$ E_i \approx -J \cdot s_i \cdot z \cdot <s> - h s_i $
+
+Zagadnienie przybliżenia średniego pola pozwala uprościć zagadnienie modelu Isinga:
+
+$ p(s_i) = \dfrac{e^{\beta( J z <s> s_i + hs_i)}}{Z_i} $, gdzie: \newline
+$ Z_i = e^{\beta( J z <s> + h)} + e^{-\beta( J z <s> + h)} = 2 \cosh \big(\beta (J z <s> + h)\big) $
+
+$ <s> = \sum\limits^{s_i =\pm 1} s_i p(s_i) = \tanh \big(\beta J z <s> + h\big) \rightarrow $ uwikłane równanie na $ <s> $. Różna od zera wartości $ <s> $ są możliwe tylko gdy temperatura jest większa od pewnej temperatury krytycznej $ T_c = \dfrac{1}{k_B \beta_c} $. Temperatura tą obliczamy stosując liniowe przybliżenie $ \tanh $ dla małych wartości argumentu (załóżmy także, że nie ma pola zewnętrznego tzn $ h = 0 $):\newline
+$ <s> = \beta_c J z <s> $,\newline
+$ <s>(1 -\beta_c J z) = 0 $,\newline
+$ \beta_c = \dfrac{1}{J z} $, \newline
+$ T_c = \dfrac{J z}{k_B} $.
+
+Dla temperatury niższej od $ T_c $ układ może mieć wartość średniego spinu różną od zera.
+
+Dla lepszego przybliżenia tangensa:\newline
+$ \tanh x \approx x - \dfrac{1}{3} x^3 $\newline
+otrzymujemy:\newline
+$ <s> = \beta z J <s> - \dfrac{1}{3} \beta^3 z^3 J^3 <s>^3 $,\newline
+$ <s> = \sqrt{\dfrac{3\beta z J - 3}{\beta^3 z^3 J^3}} $, podstawiając:\newline
+$ \beta z J = \dfrac{T_0}{T} $, otrzymujemy:\newline
+$ <s> = \sqrt{3}\sqrt[3/2]{\dfrac{T}{T_0}}\sqrt{\dfrac{T_0 - T}{T}} \rightarrow <s> \propto \sqrt{T_0 - T} $ wskazuje na ciągłą przemianę fazową.
