@@ -1,9 +1,9 @@
-\contentsline {section}{\numberline {1}{Zagadnienia obejmuj\IeC {\k a}ce podstawowe tre\IeC {\'s}ci programowe kierunku studi\IeC {\'o}w Fizyka Techniczna do egzaminu dyplomowego na studiach II stopnia}}{1}{section.1}
-\contentsline {subsection}{\numberline {1.1}{Ruch w mechanice newtonowskiej i relatywistycznej}}{1}{subsection.1.1}
+\contentsline {section}{\numberline {1}{Zagadnienia obejmuj\IeC {\k a}ce podstawowe tre\IeC {\'s}ci programowe kierunku studi\IeC {\'o}w Fizyka Techniczna do egzaminu dyplomowego na studiach II stopnia}}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}{Ruch w mechanice newtonowskiej i relatywistycznej}}{2}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}{Zasady zachowania i symetrie w fizyce}}{3}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}{Klasyczny i kwantowy oscylator harmoniczny}}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.3}{Klasyczny i kwantowy oscylator harmoniczny}}{4}{subsection.1.3}
 \contentsline {subsection}{\numberline {1.4}{Fizyczna tre\IeC {\'s}\IeC {\'c} r\IeC {\'o}wna\IeC {\'n} Maxwella i r\IeC {\'o}wnania falowego.}}{5}{subsection.1.4}
-\contentsline {subsection}{\numberline {1.5}{W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci fal elektromagnetycznych.}}{6}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.5}{W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci fal elektromagnetycznych.}}{7}{subsection.1.5}
 \contentsline {subsection}{\numberline {1.6}{Interferencja i dyfrakcja fal.}}{8}{subsection.1.6}
 \contentsline {subsection}{\numberline {1.7}{Zasady termodynamiki.}}{11}{subsection.1.7}
 \contentsline {subsection}{\numberline {1.8}{Entropia w uj\IeC {\k e}ciu termodynamicznym i statystycznym.}}{12}{subsection.1.8}
@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {1.12}{Hamiltonian w mechanice klasycznej i kwantowej.}}{18}{subsection.1.12}
 \contentsline {subsection}{\numberline {1.13}{R\IeC {\'o}wnanie Schr\IeC {\"o}dingera zale\IeC {\.z}ne i niezale\IeC {\.z}ne od czasu.}}{20}{subsection.1.13}
 \contentsline {subsection}{\numberline {1.14}{Podstawy formalizmu kwantowego \IeC {\textendash } wielko\IeC {\'s}ci fizyczne, stany, operatory.}}{21}{subsection.1.14}
-\contentsline {subsection}{\numberline {1.15}{Kwantowy opis atomu wodoru. Liczby kwantowe.}}{21}{subsection.1.15}
+\contentsline {subsection}{\numberline {1.15}{Kwantowy opis atomu wodoru. Liczby kwantowe.}}{22}{subsection.1.15}
 \contentsline {section}{\numberline {2}{Specjalno\IeC {\'s}\IeC {\'c}: Eksploracja Danych i Modelowanie Interdyscyplinarne}}{23}{section.2}
 \contentsline {subsection}{\numberline {2.1}{Automaty kom\IeC {\'o}rkowe.}}{23}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}{Podstawowe twierdzenie algorytm\IeC {\'o}w genetycznych.}}{25}{subsection.2.2}
@@ -24,4 +24,5 @@
 \contentsline {subsection}{\numberline {2.7}{Metody badania sygna\IeC {\l }\IeC {\'o}w w dziedzinie czasu i cz\IeC {\k e}sto\IeC {\'s}ci.}}{32}{subsection.2.7}
 \contentsline {subsection}{\numberline {2.8}{Synchronizacja w nieliniowych uk\IeC {\l }adach dynamicznych.}}{34}{subsection.2.8}
 \contentsline {subsection}{\numberline {2.9}{R\IeC {\'o}wnanie Fokkera-Plancka.}}{36}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}{Metody redukcji wymiaru w eksploracji danych.}}{37}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.10}{Fraktalne i multifraktalne metody analizy sygna\IeC {\l }\IeC {\'o}w.}}{37}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}{Metody redukcji wymiaru w eksploracji danych.}}{40}{subsection.2.11}
