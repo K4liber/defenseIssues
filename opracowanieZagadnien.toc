@@ -29,3 +29,4 @@
 \contentsline {subsection}{\numberline {2.12}{Zjawisko z\IeC {\l }amania symetrii w uk\IeC {\l }adach rzeczywistych: przyk\IeC {\l }ady, modele.}}{41}{subsection.2.12}
 \contentsline {subsection}{\numberline {2.13}{Informacja wzajemna w przetwarzaniu i transmisji danych.}}{43}{subsection.2.13}
 \contentsline {subsection}{\numberline {2.14}{Metody redukcji wymiaru w eksploracji danych.}}{44}{subsection.2.14}
+\contentsline {subsection}{\numberline {2.15}{Metody wnioskowania statystycznego.}}{46}{subsection.2.15}

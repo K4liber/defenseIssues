@@ -1,0 +1,53 @@
+\underline{Wnioskowanie statystyczne} polega na wyciąganiu wniosków dotyczących całej populacji na podstawie próby z tej populacji. Składowe próby powinny być niezależne oraz dobrze reprezentować populację.
+
+Na podstawię próby $ \{X_1, X_2,...,X_N\} $ chcemy opisać rozkład $ X $. Podejścia: \newline
+1. Parametryczne - zakładamy, że $ X $ ma znany rozkład, nie znamy jednak parametrów tego rozkładu np. wiemy że $ X $ ma rozkład wykładniczy $ e^{\lambda x} $, nie znamy $ \lambda $.\newline
+2. Nieparametryczne - nic nie zakładamy o $ X $.
+
+\underline{Estymacja punktowa} - polega na oszacowaniu wartości nieznanego parametru $ \theta $ za pomocą funkcji mierzalnej, której argumentami są elementy próby losowej $ \{X_1, X_2,...,X_N\} $.
+
+Przykładem estymacji punktowej jest \underline{metoda największej wiarygodności}:\newline
+Niech  $ \{X_1, X_2,..., X_N\} $ będzie prostą próbą losową z rozkładu o gęstości $ f_{\theta}(x) =  $, zaś $ \{x_1, x_2,..., x_N\} $ jest jej realizacją. Wtedy funkcję:\newline
+$ L(\theta, x_1, x_2,..., x_N) = f_{\theta}(x_1)f_{\theta}(x_2)...f_{\theta}(x_N) $\newline
+nazywamy funkcją wiarygodności. Estymatorem największej wiarygodności jest wartość parametru $ \theta $, która maksymalizuję funkcję wiarygodności.
+
+\underline{Testy statystyczne} - stawiamy hipotezę statystyczną (przypuszczenie dotyczące nieznanego rozkładu badanej cechy populacji o prawdziwości lub fałszywości ktorego wnioskuje się na podstawie pobranej próby) np. wysuwamy hipotezę, że badana cecha ma rozkład normalny (hipoteza zerowa - $ H_0 $). Statystyką testową nazywamy funkcję próby $ \delta (X_1, X_2,..., X_N) $, która służy do weryfikacji $ H_0 $ przeciwko $ H_1 $. Zbiór wszystkich możliwych wartości funkcji $ \delta $ dzielimy na dwa rozłączne zbiory $ W $(zbiór krytyczny testu) oraz $ W' $:
+\begin{itemize}
+	\item jeśli $ \delta (x_1, x_2,..., x_N) \in W $, to $ H_0 $ odrzucamy,
+	\item jeśli $ \delta (x_1, x_2,..., x_N) \in W' $, to $ H_0 $ przyjmujemy.
+\end{itemize}
+
+Wnioskujemy na podstawie próby, a nie całej populacji, jesteśmy więc narażeni na popełnienie błędu. Możemy:
+\begin{itemize}
+	\item odrzucić $ H_0 $ gdy jest ona prawdziwa (bład I-go rodzaju),
+	\item przyjąć $ H_0 $ gdy jest ona fałszywa (błąd II-go rodzaju).
+\end{itemize}
+
+Test konstruuje się tak, aby maksymalne prawdopodobieństwo błędu I-go rodzaju wynosiło  $ \alpha $ (i nazywa się je poziomem istotności):\newline
+$ p(\delta (x_1, x_2,..., x_N) \in W | H_0) \le \alpha $\newline
+Najmniejszy poziom istotności, przy którym zaobserwowana wartość statystyki testowej prowadzi do odrzucenia $ H_0 $ nazywamy $ p $ wartością. Wartość $ p $ niższa od krytycznego poziomu istotności w podejściu częstościowym uprawnia jedynie do postępowania doraźnie tak, jakby hipoteza zerowa została odrzucona.
+
+Moc testu parametrycznego to funkcja zmiennej $ \theta $:\newline
+$ P(\theta) = p (\delta (x_1, x_2,..., x_N) \in W | \theta ) = $ prawdopodobieństwo odrzucenia $ H_0 $ w sytuacji gdy nieznany parametr wynosi $ \theta $.
+
+\textbf{Przykładowe testy:}
+
+\underline{Test Pearsona}:\newline
+$ \chi^2 = \sum\limits_{i=1}^n \big( \dfrac{O_i - E_i}{\sigma_i} \big)^2 $, gdzie:\newline
+$ O_i $ - wartość mierzona,\newline
+$ E_i $ - wartość teoretyczna,\newline
+$ \sigma_i $ - odchylenie standardowe,\newline
+$ n $ - liczba pomiarów.
+
+Otrzymaną wartość znormalizowanego testu ocenia się za pomocą rozkładu chi kwadrat. Polega to na obliczeniu prawdopodobieństwa otrzymania wartości testu równej lub większej, niż otrzymanej przez nas. Ponieważ takie obliczenia są dość skomplikowane, najczęściej korzysta się z danych zamieszczonych w odpowiednich tablicach. Mając odpowiednie prawdopodobieństwo, należy określić jego najmniejszą wartość, dla której jesteśmy w stanie zaakceptować hipotezę jako prawdę.
+
+\underline{Test Kołmogorowa-Smirnowa} - jest zwykle używany do sprawdzania, czy dana dystrybuanta teoretyczna $ F(x) $ opisuje rozkład populacji, z której wylosowano próbę o dystrybuancie empirycznej $ F_n(x) $.
+
+\underline{Test t-Studenta} - służy do:
+\begin{itemize}
+	\item sprawdzenia hipotezy, czy na podstawie naszej próby możemy mamy podstawy do odrzucenia hipotezy, że populacja ma średnią równą danej średniej teoretycznej,
+	\item sprawdzenie hipotezy, czy dwie niezależne próby pochodzą z populacji o tej samej średniej
+	\item sprawdzenie hipotezy, czy dwie zależne próby (np. badanie przeprowadzone dwukrotnie na tej samej grupie osób) pochodzą z populacji o tej samej średniej.
+\end{itemize}
+
+
