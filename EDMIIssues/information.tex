@@ -1,0 +1,34 @@
+\underline{Informacja}
+
+$ I_i = -\log_2 p_i $, gdzie:\newline
+$ I_i $ - ilość informacji otrzymanej przy zdarzeniu $ x_i $,\newline
+$ p_i $ - pradopodobieństwo zajścia zdarzenia $ x_i $
+
+\underline{Entropia}
+
+Przeciętna ilość informacji przypadająca na zajście zdarzenia z pewnego zbioru n zdarzeń (entropia bezwarunkowa tego zbioru, entropia przeciętna) jest średnią arytmetyczną ważoną ilości informacji otrzymywanej przy zajściu poszczególnych zdarzeń, gdzie wagami są prawdopodobieństwa tych zdarzeń:
+
+$ H(X) = -\sum\limits_{i=1}^n p(x_i)\log p(x_i) $
+
+\underline{Entropia względna} jest miarą stosowaną w statystyce i teorii informacji do określenia rozbieżności między dwoma rozkładami prawdopodobieństwa $ p $ i $ q $ (wynosi zero dla identycznych rozkładów):
+
+$ d_{KL}(P, Q) = \sum\limits^i p(x_i) log_2 \dfrac{p(x_i)}{q(x_i)} $
+
+\underline{Informacja wzajemna} mierzy, ile informacji o $ X $ można poznać, znając $ Y $, czyli o ile poznanie jednej z tych zmiennych zmniejsza niepewność o drugiej:
+
+$ I(X;Y) = \sum\limits^i \sum\limits^j p(x_i, y_j) \log \dfrac{p(x_i, y_j)}{p(x_i)p(y_j)} = d_{KL}\big(P(X, Y), P(X)P(Y)\big) $
+
+Jeśli zmienne $ X $ i $ Y $ są niezależne ($ P(X,Y) = P(X)P(Y) $), to ich wzajemna informacja jest zerowa (znajomość jednej nie mówi niczego o drugiej). Jeśli $ X $ i $ Y $ są identyczne, to każda zawiera pełną wiedzę o drugiej. Wtedy informacja wzajemna jest równa entropii $ X $ (albo $ Y $ – skoro są identyczne, to ich entropia jest taka sama).
+
+Informacja wzajemna to ilość informacji o zdarzeniach ze zbioru X (wartościach zmiennej losowej X), np. komunikatach nadanych (stanach źródła informacji), zawarta w zdarzeniach ze zbioru Y (wartościach zmiennej losowej Y), np. komunikatach odebranych (stanach odbiorcy). Definicja ta oznacza, że informacja wzajemna jest miarą efektywności transmisji.
+
+Komunikacja jest proces fizycznym - transmisja infromacji może podlegać niekontrolowanym zniekształceniom - dwa różne komunikaty nadawane mogą być odebrane jako ten sam komunikat.
+
+\underline{Kanał informacyjny} jest to medium służące do wymiany informacji. Wyjście zależy probabilistycznie od wejścia: $ X \rightarrow Y $. Przepustowość kanału informacyjnego: \newline
+$ C = \max\limits_{P(X)} I(X, Y) $
+
+Informacja wzajemna jest średnią redukcją niepewności na temat jednego źródła przy uzyskaniu informacji na temat drugiego.
+
+Kanał komunikacyjny składa się z dwóch różnych źródeł: wejściowego $ X $ i wyjściowego $ Y $ oraz zestawu prawdopodobieństw warunkowych: $ P(Y = b| X = a) $.
+
+Przepustowość kanału to maksymalna wartość informacji wzajemnej między wejściem, a wyjściem jaką możemy otrzymać, zmieniając rozkład prawdopodobieśtw na wejściu.
