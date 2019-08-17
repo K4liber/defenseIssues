@@ -1,0 +1,20 @@
+\underline{Problem}: pewną wiadomość $ s $ (sekret) należy zaszyfrować w postaci $ n $ fragmentów w taki sposób, że przy użyciu dowolnych $ t $ z nich da się odtworzyć sekret, a dowolne $ t - 1 $ z nich nie dają żadnych informacji o $ s $.\newline
+$ s = Z_p $, $ p $ - liczba pierwsza, $ p \ge n + 1 $.\newline
+Wybieramy $ n $ różnych punktów: $ x_1, x_2,..., x_n \in Z_p $, $ \forall_{i,j}\in<1,n> x_i \neq x_j $\newline
+Losowo tworzymy wielomian stopnia $ t-1 $:\newline
+$ \alpha (x) = s + \sum\limits_{j=1}^{t-1}a_jx^j \rightarrow \alpha(0) = s $, gdzie:\newline
+$ a_j $ - współczynniki dobierane losowo z $ Z_p - {0} $
+
+Każdy z $ t $ uczestników otrzymuje pare ($ x_i $, $ \alpha(x_i) $).
+
+Przez $ t $ punktów przechodzi tylko jeden wielomian stopnia $ t-1 $. Przeprowadzenie zwykłej interpolacji pozwala odtworzyć postać wielomianu $ \alpha $, a więc też jego wartość w zerze - czyli sekret.\newline
+\textbf{Przykład}\newline
+Rozważmy schemat Shamira nad $ Z_{11} $. Nasz sekret wynosi $ s = 7 $. Niech $ x_i = i $ dla $ i = 1,2,...,6 $ oraz $ \alpha(x) = 7 + 2x + x^2 \rightarrow t = 3 $. Zebrało się trzech udziałowców chcących poznać sekret:\newline $ \{1, \alpha(1) = 10\} $,\newline $ \{2, \alpha(2) = 4\} $,\newline $ \{6, \alpha(6) = 0\} $.\newline
+Aby z tych trzech punktów odtworzyć wielomian 2-go rzędu można skorzystać ze wzoru interpolacyjnego Lagrangea:\newline
+$ w(x) = \sum\limits_{i=1}^t y_i \prod\limits_{j=1,j\ne i}^t \dfrac{x-x_j}{x_i-x_j} $\newline
+W naszym przykładzie:\newline
+$ w_1(x) = 10\big( \dfrac{x-2}{1-2}\dfrac{x-6}{1-6} \big) \mod 11 = 2(x-2)(x-6) \mod 11 = 2x^2 + 6x + 2$\newline
+$ w_2(x) = 4\big( \dfrac{x-1}{2-1}\dfrac{x-6}{2-6} \big) \mod 11 = -(x-1)(x-6) \mod 11 = -x^2 +7x - 6 $\newline
+$ w_6(x) = 0 $,\newline
+$ w(x) = w_1(x) + w_2(x) + w_3(x) = x^2 + 13x - 4 \mod 11 = x^2 + 2x + 7, $
+$ w(0) = 7 = s \rightarrow $ roszyfrowaliśmy sekret.
