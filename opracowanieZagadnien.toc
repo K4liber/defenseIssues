@@ -1,33 +1,33 @@
-\contentsline {section}{\numberline {1}{Zagadnienia obejmuj\IeC {\k a}ce podstawowe tre\IeC {\'s}ci programowe kierunku studi\IeC {\'o}w Fizyka Techniczna do egzaminu dyplomowego na studiach II stopnia}}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}{Ruch w mechanice newtonowskiej i relatywistycznej}}{2}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}{Zasady zachowania i symetrie w fizyce}}{3}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}{Klasyczny i kwantowy oscylator harmoniczny}}{4}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}{Fizyczna tre\IeC {\'s}\IeC {\'c} r\IeC {\'o}wna\IeC {\'n} Maxwella i r\IeC {\'o}wnania falowego.}}{5}{subsection.1.4}
-\contentsline {subsection}{\numberline {1.5}{W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci fal elektromagnetycznych.}}{7}{subsection.1.5}
-\contentsline {subsection}{\numberline {1.6}{Interferencja i dyfrakcja fal.}}{8}{subsection.1.6}
-\contentsline {subsection}{\numberline {1.7}{Zasady termodynamiki.}}{11}{subsection.1.7}
-\contentsline {subsection}{\numberline {1.8}{Entropia w uj\IeC {\k e}ciu termodynamicznym i statystycznym.}}{12}{subsection.1.8}
-\contentsline {subsection}{\numberline {1.9}{Klasyczne i kwantowe rozk\IeC {\l }ady statystyczne.}}{13}{subsection.1.9}
-\contentsline {subsection}{\numberline {1.10}{Budowa materii.}}{16}{subsection.1.10}
-\contentsline {subsection}{\numberline {1.11}{Dualizm korpuskularno-falowy i jego eksperymentalne potwierdzenie.}}{18}{subsection.1.11}
-\contentsline {subsection}{\numberline {1.12}{Hamiltonian w mechanice klasycznej i kwantowej.}}{18}{subsection.1.12}
-\contentsline {subsection}{\numberline {1.13}{R\IeC {\'o}wnanie Schr\IeC {\"o}dingera zale\IeC {\.z}ne i niezale\IeC {\.z}ne od czasu.}}{20}{subsection.1.13}
-\contentsline {subsection}{\numberline {1.14}{Podstawy formalizmu kwantowego \IeC {\textendash } wielko\IeC {\'s}ci fizyczne, stany, operatory.}}{21}{subsection.1.14}
-\contentsline {subsection}{\numberline {1.15}{Kwantowy opis atomu wodoru. Liczby kwantowe.}}{22}{subsection.1.15}
-\contentsline {section}{\numberline {2}{Specjalno\IeC {\'s}\IeC {\'c}: Eksploracja Danych i Modelowanie Interdyscyplinarne}}{23}{section.2}
-\contentsline {subsection}{\numberline {2.1}{Automaty kom\IeC {\'o}rkowe.}}{23}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}{Podstawowe twierdzenie algorytm\IeC {\'o}w genetycznych.}}{25}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}{Sieci bezskalowe.}}{26}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}{Agentowe modele dynamiki opinii.}}{27}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}{Sie\IeC {\'c} neuronowa typu Hopfielda.}}{30}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}{Naiwny klasyfikator Bayesa.}}{31}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}{Metody badania sygna\IeC {\l }\IeC {\'o}w w dziedzinie czasu i cz\IeC {\k e}sto\IeC {\'s}ci.}}{32}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}{Synchronizacja w nieliniowych uk\IeC {\l }adach dynamicznych.}}{34}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}{R\IeC {\'o}wnanie Fokkera-Plancka.}}{36}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}{Fraktalne i multifraktalne metody analizy sygna\IeC {\l }\IeC {\'o}w.}}{37}{subsection.2.10}
-\contentsline {subsection}{\numberline {2.11}{Teoria pola \IeC {\'s}redniego dla modelu Isinga.}}{40}{subsection.2.11}
-\contentsline {subsection}{\numberline {2.12}{Zjawisko z\IeC {\l }amania symetrii w uk\IeC {\l }adach rzeczywistych: przyk\IeC {\l }ady, modele.}}{41}{subsection.2.12}
-\contentsline {subsection}{\numberline {2.13}{Informacja wzajemna w przetwarzaniu i transmisji danych.}}{43}{subsection.2.13}
-\contentsline {subsection}{\numberline {2.14}{Metody redukcji wymiaru w eksploracji danych.}}{44}{subsection.2.14}
-\contentsline {subsection}{\numberline {2.15}{Metody wnioskowania statystycznego.}}{46}{subsection.2.15}
-\contentsline {subsection}{\numberline {2.16}{Algorytm Shamira dzielenia tajemnic w kryptografii.}}{48}{subsection.2.16}
+\contentsline {section}{\numberline {1}Zagadnienia obejmuj\IeC {\k a}ce podstawowe tre\IeC {\'s}ci programowe kierunku studi\IeC {\'o}w Fizyka Techniczna do egzaminu dyplomowego na studiach II stopnia}{2}
+\contentsline {subsection}{\numberline {1.1}Ruch w mechanice newtonowskiej i relatywistycznej}{2}
+\contentsline {subsection}{\numberline {1.2}Zasady zachowania i symetrie w fizyce}{3}
+\contentsline {subsection}{\numberline {1.3}Klasyczny i kwantowy oscylator harmoniczny}{4}
+\contentsline {subsection}{\numberline {1.4}Fizyczna tre\IeC {\'s}\IeC {\'c} r\IeC {\'o}wna\IeC {\'n} Maxwella i r\IeC {\'o}wnania falowego.}{5}
+\contentsline {subsection}{\numberline {1.5}W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci fal elektromagnetycznych.}{7}
+\contentsline {subsection}{\numberline {1.6}Interferencja i dyfrakcja fal.}{8}
+\contentsline {subsection}{\numberline {1.7}Zasady termodynamiki.}{11}
+\contentsline {subsection}{\numberline {1.8}Entropia w uj\IeC {\k e}ciu termodynamicznym i statystycznym.}{12}
+\contentsline {subsection}{\numberline {1.9}Klasyczne i kwantowe rozk\IeC {\l }ady statystyczne.}{13}
+\contentsline {subsection}{\numberline {1.10}Budowa materii.}{16}
+\contentsline {subsection}{\numberline {1.11}Dualizm korpuskularno-falowy i jego eksperymentalne potwierdzenie.}{18}
+\contentsline {subsection}{\numberline {1.12}Hamiltonian w mechanice klasycznej i kwantowej.}{19}
+\contentsline {subsection}{\numberline {1.13}R\IeC {\'o}wnanie Schr\IeC {\"o}dingera zale\IeC {\.z}ne i niezale\IeC {\.z}ne od czasu.}{20}
+\contentsline {subsection}{\numberline {1.14}Podstawy formalizmu kwantowego \IeC {\textendash } wielko\IeC {\'s}ci fizyczne, stany, operatory.}{21}
+\contentsline {subsection}{\numberline {1.15}Kwantowy opis atomu wodoru. Liczby kwantowe.}{22}
+\contentsline {section}{\numberline {2}Specjalno\IeC {\'s}\IeC {\'c}: Eksploracja Danych i Modelowanie Interdyscyplinarne}{24}
+\contentsline {subsection}{\numberline {2.1}Automaty kom\IeC {\'o}rkowe.}{24}
+\contentsline {subsection}{\numberline {2.2}Podstawowe twierdzenie algorytm\IeC {\'o}w genetycznych.}{26}
+\contentsline {subsection}{\numberline {2.3}Sieci bezskalowe.}{27}
+\contentsline {subsection}{\numberline {2.4}Agentowe modele dynamiki opinii.}{28}
+\contentsline {subsection}{\numberline {2.5}Sie\IeC {\'c} neuronowa typu Hopfielda.}{31}
+\contentsline {subsection}{\numberline {2.6}Naiwny klasyfikator Bayesa.}{32}
+\contentsline {subsection}{\numberline {2.7}Metody badania sygna\IeC {\l }\IeC {\'o}w w dziedzinie czasu i cz\IeC {\k e}sto\IeC {\'s}ci.}{34}
+\contentsline {subsection}{\numberline {2.8}Synchronizacja w nieliniowych uk\IeC {\l }adach dynamicznych.}{36}
+\contentsline {subsection}{\numberline {2.9}R\IeC {\'o}wnanie Fokkera-Plancka.}{38}
+\contentsline {subsection}{\numberline {2.10}Fraktalne i multifraktalne metody analizy sygna\IeC {\l }\IeC {\'o}w.}{39}
+\contentsline {subsection}{\numberline {2.11}Teoria pola \IeC {\'s}redniego dla modelu Isinga.}{42}
+\contentsline {subsection}{\numberline {2.12}Zjawisko z\IeC {\l }amania symetrii w uk\IeC {\l }adach rzeczywistych: przyk\IeC {\l }ady, modele.}{43}
+\contentsline {subsection}{\numberline {2.13}Informacja wzajemna w przetwarzaniu i transmisji danych.}{45}
+\contentsline {subsection}{\numberline {2.14}Metody redukcji wymiaru w eksploracji danych.}{46}
+\contentsline {subsection}{\numberline {2.15}Metody wnioskowania statystycznego.}{49}
+\contentsline {subsection}{\numberline {2.16}Algorytm Shamira dzielenia tajemnic w kryptografii.}{51}
